@@ -5,7 +5,18 @@
         include __DIR__ . '../../../database.php';
 
         foreach ($movies as $movie) {
+            echo '<div class="movie card">';
             echo '<h4>' . $movie->getTitle() . '</h4>';
+            echo '<p>' . $movie->year . '</p>';
+            echo '<p>' . $movie->genre->genre1 . '</p>';
+            if ($movie->genre->genre2 !== null) {
+                echo '<p>' . $movie->genre->genre2 . '</p>';
+            };
+            if ($movie->genre->genre3 !== null) {
+                echo '<p>' . $movie->genre->genre3 . '</p>';
+            };
+            echo '<p>' . $movie->director . '</p>';
+            echo '</div>';
         }
 
 
