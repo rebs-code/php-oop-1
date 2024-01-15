@@ -6,6 +6,5 @@
         <li class="social-icon"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
         <li class="social-icon"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
         <li class="social-icon"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
-        <li class="social-icon"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
     </ul>
 </footer>

@@ -24,6 +24,7 @@ include __DIR__ . '/src/models/Genre.php';
 
 <body>
     <?php include __DIR__ . '/src/partials/header.php'; ?>
+    <?php include __DIR__ . '/src/partials/main.php'; ?>
     <?php include __DIR__ . '/src/partials/footer.php'; ?>
 
 </body>
