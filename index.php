@@ -26,3 +26,8 @@ class Movie
 //create a new instance of the Movie class
 $movie01 = new Movie('The Godfather', 1972, 'Crime', 'Francis Ford Coppola');
 $movie02 = new Movie('Pulp Fiction', 1994, 'Crime', 'Quentin Tarantino');
+
+var_dump($movie01);
+var_dump($movie02);
+echo $movie01->getTitle();
+echo $movie02->getTitle();
