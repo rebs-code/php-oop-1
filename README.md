@@ -1,16 +1,21 @@
-Creare un file index.php in cui:
-è definita una classe 'Movie'
-all'interno della classe sono dichiarate delle variabili d'istanza
-all'interno della classe è definito un costruttore
-all'interno della classe è definito almeno un metodo
-vengono istanziati almeno due oggetti ‘Movie’ e stampati a schermo i valori delle relative proprietà
+# Display Movies with PHP
 
-Bonus 1:
-Modificare la classe Movie in modo che accetti più di un genere.
-Bonus 2:
-Creare un layout completo per stampare a schermo una lista di movies.
+This project is an exercise in Object-Oriented Programming (OOP) with PHP. It showcases the use of components and modules to create a structured and organized codebase.
 
-Facciamo attenzione all’organizzazione del codice, suddividendolo in appositi file e cartelle. Possiamo ad esempio organizzare il codice
-creando un file dedicato ai dati (tipo le array di oggetti) che potremmo chiamare db.php
-mettendo ciascuna classe nel proprio file e magari raggruppare tutte le classi in una cartella dedicata che possiamo chiamare Models
-organizzando il layout dividendo la struttura ed i contenuti in file e parziali dedicati.
+The project is structured into components such as header, main, and footer. These components are used to build the layout of the application.
+
+The modules contain classes such as Movies and Genres. These classes are instantiated in database.php, which contains an array of objects representing individual movies and their associated genres.
+
+This project serves as a practical example of how to use OOP principles in PHP to create a structured and maintainable codebase.
+
+## Installation
+
+1. Clone the repository to your local machine.
+
+## Built With
+
+This project uses the following technologies:
+
+- PHP: The backend logic is written in PHP, showcasing Object-Oriented Programming principles.
+- Bootstrap: Used for styling and layout of the application.
+- FontAwesome: Provides the icons used throughout the application.
