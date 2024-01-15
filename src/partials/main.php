@@ -10,19 +10,24 @@
                 <div class="title-div">
                     <h4><?= $movie->getTitle() ?></h4>
                 </div>
-
-                <p>Year: <?= $movie->year ?></p>
-                <p>Genre:</p>
-                <div class="d-flex justify-content-around">
-                    <p><?= $movie->genre->genre1 ?></p>
+                <div class="year-div">
+                    <p class="fw-bold me-1">Year: </p>
+                    <p><?= $movie->year ?></p>
+                </div>
+                <div class="d-flex justify-content-center genre-div align-items-center p-3">
+                    <p class="fw-bold me-3">Genre:</p>
+                    <p class="border border-black p-1 me-1"><?= $movie->genre->genre1 ?></p>
                     <?php if ($movie->genre->genre2 !== null) : ?>
-                        <p><?= $movie->genre->genre2 ?></p>
+                        <p class="border border-black p-1 me-1"><?= $movie->genre->genre2 ?></p>
                     <?php endif; ?>
                     <?php if ($movie->genre->genre3 !== null) : ?>
-                        <p><?= $movie->genre->genre3 ?></p>
+                        <p class="border border-black p-1 me-1"><?= $movie->genre->genre3 ?></p>
                     <?php endif; ?>
                 </div>
-                <p><?= $movie->director ?></p>
+                <div class="director-div">
+                    <p><?= $movie->director ?></p>
+                </div>
+
             </div>
         <?php
         endforeach;
