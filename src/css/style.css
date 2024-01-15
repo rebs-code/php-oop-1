@@ -28,6 +28,18 @@ nav ul li {
   margin: 0 10px;
 }
 
+/* main */
+
+main {
+  padding: 20px;
+  background-color: #e0e0e0;
+}
+
+.movie {
+  margin: 20px;
+  width: calc(100% / 3 - 40px);
+}
+
 /* footer */
 footer {
   background-color: #f1f1f1;
